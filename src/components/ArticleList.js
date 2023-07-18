@@ -13,7 +13,7 @@ function ArticleList({ posts }) {
       />
     </article>
   ));
-  return <div>{post}</div>;
+  return <main>{post}</main>;
 }
 
 export default ArticleList;
